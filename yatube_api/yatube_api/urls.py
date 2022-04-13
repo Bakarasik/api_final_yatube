@@ -7,7 +7,7 @@ urlpatterns = [
     path('api/', include('api.urls')),
     path(
         'redoc/',
-        TemplateView.as_view(template_name='redoc.html'),
+        TemplateView.as_view(template_name='yatube_api/redoc.html'),
         name='redoc'
     ),
 ]
